@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박상건의 홈페이지</title>
+    <style>
+        
+      .bt{
+        background-color:black;
+        border: none;
+        color: white;
+        padding: 25px 37px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px;
+      }
+      img { /*플로트 사용*/
+        float: right;
+        }   
+      button:hover{background-color:rgb(62, 61, 65);} 
+
+      ul {
+          margin: 0;
+          padding: 0;
+          top:0px;
+          background-color: black;
+          position: sticky;
+      }
+
+      li {
+          display: inline-block;
+          
+      }
+      p{
+        font-size: 30px;
+      }
+    </style>
+</head>
+<body>
+    <svg height="120" width="100%">
+    
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(0, 204, 255);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(46, 132, 231);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
+        <text fill="#cccccc" font-size="60" font-family="Verdana" x="50" y="80">박상건의 헬스 홈페이지</text>
+        Sorry, your browser does not support inline SVG.
+    </svg>
+    
+    <ul>
+      <li><button class="bt" onclick="document.location='../main/web_project.html'">Home</button></li> 
+      <li><button class="bt" onclick="document.location='../sub/S.html'">스쿼트</button></li> 
+      <li><button class="bt" onclick="document.location='../sub/B.html'">벤치 프레스</button></li>
+      <li><button class="bt" onclick="document.location='../sub/D.html'">데드리프트</button></li>
+    </ul>
+    <p style="font-size:50px;"><img src="../img/3대 운동.jpg" alt="Pineapple" style="width:600px;height:600px;margin-left:15px;">3대 운동이란?</p>
+  <p>
+    3대 운동의 종류로는 스쿼트(Squat), 벤치프레스(Bench Press), 데트 리프트(Dead Lift)가 있습니다. 영어로 표기된 이 운동들의 앞글자 S, B, D, 즉 SBD라고도 한다.
+    3대 운동의 특징은 우리 몸에서 큰 근육, 즉 '대근육'이 가장 크게 사용되는 운동이다. 다시말하자면 시간 대비 가장 큰효율을 가져다주는 운동 or 가장 큰힘을 발휘할 수 있게 하는 운동이다.</p>
+  <p style="color:red">
+     3대 운동은 어떤 운동 동작보다 많은 관절과 근육을 사용하고, 정확한 자세를 만들어 동작을 실시햇을때 높은 칼로리 소모와 함께 큰 운동효과를 가져온다. 
+  </p>
+  <p style="color:red; font-weight: bold;">
+    하지만 3대운동은 다관절 운동이기 때문에 자세가 흐트러지면 속근육이 다칠 위험이 크다. 또 중량판으로 무게를 늘려감에따라 부상가능성도 높아지기 때문에 초심자분들는 올바른 자세를 숙지하고 3대 운동을 해야한다.
+ </p>
+
+</body>
+</html>

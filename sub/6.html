@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>박상건의 홈페이지</title>
+<style>
+    .bt{
+        background-color:black;
+        border: none;
+        color: white;
+        padding: 25px 37px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px;
+      }
+      img { /*플로트 사용*/
+        float: right;
+        }   
+      button:hover{background-color:rgb(62, 61, 65);} 
+
+      ul {
+          margin: 0;
+          padding: 0;
+          top:0px;
+          background-color: black;
+          position: sticky;
+      }
+
+      li {
+          display: inline-block;
+          
+      }
+      p{
+        font-size: 30px;
+      }   
+      .dropdown-content 
+      {
+        display: none;
+        position: absolute;
+        background-color: #000000;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a 
+      {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {background-color: rgb(62, 61, 65);}
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+</style>
+</head>
+<body>
+    <svg height="120" width="100%">
+    
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(0, 204, 255);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(46, 132, 231);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
+        <text fill="#cccccc" font-size="60" font-family="Verdana" x="50" y="80">박상건의 헬스 홈페이지</text>
+        Sorry, your browser does not support inline SVG.
+    </svg>
+    <ul>
+        <li><button class="bt" onclick="document.location='../main/web_project.html'">Home</button></li> 
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn"><button class="bt" onclick="document.location='../sub/1.html'">3대 운동</button></a>
+          <div class="dropdown-content">
+            <a href="../sub/S.html">스쿼트</a>
+            <a href="../sub/B.html">벤치 프레스</a>
+            <a href="../sub/D.html">데드리프트</a>
+          </div>
+        </li> 
+        <li><button class="bt" onclick="document.location='../sub/2.html'">풀업</button></li>
+        <li><button class="bt" onclick="document.location='../sub/3.html'">딥스</button></li>
+        <li><button class="bt" onclick="document.location='../sub/4.html'">덤벨 컬</button></li>
+        <li><button class="bt" onclick="document.location='../sub/5.html'">푸시업</button></li>
+        <li><button class="bt" onclick="document.location='../sub/7.html'">플랭크</button></li>
+        <li><button class="bt" onclick="document.location='../sub/8.html'">사이드 레터럴 레이즈</button></li>
+      </ul>
+    <p style="font-size:50px;"><img src="../img/런지.jpg" alt="Pineapple" style="width:600px;height:600px;margin-left:15px;">런지  (Lunge)</p>
+    <p>하체운동의 대명사로 불리며 스쿼트와 쌍두마차를 이룰 만큼 효과가 좋은 운동이다. 스쿼트가 근육 비대, 성기능 향상, 체력, 유연성 향상이 주된 운동 효과라 하면 런지는 운동 신경과 균형감각, 허리 건강, 코어 강화를 위한 운동으로 알려져있다. </p>
+    <p style="color:red;">주의할 점</p>
+    <p>런지는 앞으로 다리를 내밀며 무릎을 굽히는 자세를 취하게 되는데 다리가 몸 안쪽으로 구부러질 경우 무릎에 손상이 갈 우려가 있으며# 자세가 불안정 하기 때문에 운동 효과가 떨어지게 된다. 이는 내전근과 중둔근의 약화로 인하여 무릎이 안쪽으로 구부러 지는 것이며, 본격적으로 운동을 하기전에 내전근 이완과 중둔근 강화 스트레칭을 해주면 보다 수월하게 운동을 할 수 있다. 
+    </p>
+    <p>런지하는 방법</p>
+    <iframe width="620" height="515" 
+    src="https://www.youtube.com/embed/NZcwOWUkBt4">
+    </iframe>
+</iframe>
+</body>
+</html>

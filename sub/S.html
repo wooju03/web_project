@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>박상건의 홈페이지</title>
+<style>
+    .bt{
+        background-color:black;
+        border: none;
+        color: white;
+        padding: 25px 37px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px;
+      }
+      img { /*플로트 사용*/
+        float: right;
+        }   
+      button:hover{background-color:rgb(62, 61, 65);} 
+
+      ul {
+          margin: 0;
+          padding: 0;
+          top:0px;
+          background-color: black;
+          position: sticky;
+      }
+
+      li {
+          display: inline-block;
+          
+      }
+      p{
+        font-size: 30px;
+      }   
+</style>
+</head>
+<body>
+    <svg height="120" width="100%">
+    
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(0, 204, 255);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(46, 132, 231);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
+        <text fill="#cccccc" font-size="60" font-family="Verdana" x="50" y="80">박상건의 헬스 홈페이지</text>
+        Sorry, your browser does not support inline SVG.
+    </svg>
+    <ul>
+        <li><button class="bt" onclick="document.location='../main/web_project.html'">Home</button></li> 
+        <li><button class="bt" onclick="document.location='../sub/S.html'">스쿼트</button></li> 
+        <li><button class="bt" onclick="document.location='../sub/B.html'">벤치 프레스</button></li>
+        <li><button class="bt" onclick="document.location='../sub/D.html'">데드리프트</button></li>
+        <li><button class="bt" onclick="document.location='../sub/1.html'">뒤로</button></li>
+      </ul>
+    <p style="font-size:50px;"><img src="../img/스쿼트.jpg" alt="Pineapple" style="width:600px;height:600px;margin-left:15px;">스쿼트 (Squat)</p>
+    <p>무산소 운동 중 하나로 데드리프트, 벤치 프레스와 더불어 웨이트 트레이닝의 3대 운동 중 하나이다. 특히 하체운동에서는 '알파이자 오메가'인 운동이다.</p>
+    <p style="color:red;">주의할 점</p>
+    <p>잘못된 자세, 무리한 스쿼트로 인해 다치는 부위는 흔히 무릎과 꼬리뼈부분(요추) 부상이 있다. 그 외에도 횡문근융해증에 걸릴 수도 있는데, 
+        증세 자체는 운동을 무리하게 하면 발병하지만 스쿼트가 다른 운동에 비해 운동강도가 워낙에 높다보니 위험성이 더 높다. 보디빌더조차도 한순간의 실수로 부상을 입을 수 있는 운동인 만큼 선행연습과 자세교정 등등 주의가 각별히 필요하다.</p>
+    <p>스쿼트하는 방법</p>
+    <iframe width="620" height="515" 
+    src="https://www.youtube.com/embed/Fk9j6pQ6ej8">
+    </iframe>
+</iframe>
+</body>
+</html>

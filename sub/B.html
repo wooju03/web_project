@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>박상건의 홈페이지</title>
+<style>
+    .bt{
+        background-color:black;
+        border: none;
+        color: white;
+        padding: 25px 37px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px;
+      }
+      img { /*플로트 사용*/
+        float: right;
+        }   
+      button:hover{background-color:rgb(62, 61, 65);} 
+
+      ul {
+          margin: 0;
+          padding: 0;
+          top:0px;
+          background-color: black;
+          position: sticky;
+      }
+
+      li {
+          display: inline-block;
+          
+      }
+      p{
+        font-size: 30px;
+      }   
+</style>
+</head>
+<body>
+    <svg height="120" width="100%">
+    
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(0, 204, 255);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(46, 132, 231);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
+        <text fill="#cccccc" font-size="60" font-family="Verdana" x="50" y="80">박상건의 헬스 홈페이지</text>
+        Sorry, your browser does not support inline SVG.
+    </svg>
+    <ul>
+        <li><button class="bt" onclick="document.location='../main/web_project.html'">Home</button></li> 
+        <li><button class="bt" onclick="document.location='../sub/S.html'">스쿼트</button></li> 
+        <li><button class="bt" onclick="document.location='../sub/B.html'">벤치 프레스</button></li>
+        <li><button class="bt" onclick="document.location='../sub/D.html'">데드리프트</button></li>
+        <li><button class="bt" onclick="document.location='../sub/1.html'">뒤로</button></li>
+      </ul>
+    <p style="font-size:50px;"><img src="../img/벤치프레스.jpg" alt="Pineapple" style="width:600px;height:600px;margin-left:15px;">벤치프레스  (Bench Press)</p>
+    <p>스쿼트, 데드리프트와 함께 웨이트 트레이닝을 대표하는 3대 운동 중 하나다. 그 중에서 벤치 프레스는 근력 운동을 해본 적 없는 사람들도 알고 있는 가장 대표적인 운동으로서, 가슴 위의 상체를 종합적으로 강화시키는 효과를 준다.</p>
+    <p style="color:red;">주의할 점</p>
+    <p>올바르게 요령을 숙지하지 않은 상태에서, 혹은 운동을 하지 않던 상태에서 처음부터 운동 효과를 보겠다는 욕심으로 무거운 역기를 들다가 사고를 당하는 경우가 종종 있으므로 유의가 필요하다. 실제로 벤치 프레스를 하면서, 자신에게 맞지 않는 중량을 들던 사람이 무게를 이기지 못하고 바에 목이 눌려 질식해 사망하거나 호흡곤란을 겪는 사고가 상당히 많다.</p>
+    <p>벤치 프레스하는 방법</p>
+    <iframe width="620" height="515" 
+    src="https://www.youtube.com/embed/0DsXTSHo3lU">
+    </iframe>
+</iframe>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>박상건의 홈페이지</title>
+<style>
+    .bt{
+        background-color:black;
+        border: none;
+        color: white;
+        padding: 25px 37px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0px;
+      }
+      img { /*플로트 사용*/
+        float: right;
+        }   
+      button:hover{background-color:rgb(62, 61, 65);} 
+
+      ul {
+          margin: 0;
+          padding: 0;
+          top:0px;
+          background-color: black;
+          position: sticky;
+      }
+
+      li {
+          display: inline-block;
+          
+      }
+      p{
+        font-size: 30px;
+      }   
+</style>
+</head>
+<body>
+    <svg height="120" width="100%">
+    
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(0, 204, 255);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(46, 132, 231);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
+        <text fill="#cccccc" font-size="60" font-family="Verdana" x="50" y="80">박상건의 헬스 홈페이지</text>
+        Sorry, your browser does not support inline SVG.
+    </svg>
+    <ul>
+        <li><button class="bt" onclick="document.location='../main/web_project.html'">Home</button></li> 
+        <li><button class="bt" onclick="document.location='../sub/S.html'">스쿼트</button></li> 
+        <li><button class="bt" onclick="document.location='../sub/B.html'">벤치 프레스</button></li>
+        <li><button class="bt" onclick="document.location='../sub/D.html'">데드리프트</button></li>
+        <li><button class="bt" onclick="document.location='../sub/1.html'">뒤로</button></li>
+      </ul>
+    <p style="font-size:50px;"><img src="../img/데드리프트.jpg" alt="Pineapple" style="width:600px;height:600px;margin-left:15px;">데드리프트  (Deadlift)</p>
+    <p>웨이트 트레이닝을 대표하는 3대 운동(스쿼트, 벤치 프레스, 데드리프트) 중 하나이다. 제대로 배우고 원칙을 준수한다면 안전하며 데드리프트는 전신의 근육을 활용하는 효율적, 효과적인 운동이다. 전문적인 지도와 보호가 이뤄진다는 전제하에 누구라도 강력히 추천하는 운동이다.</p>
+    <p style="color:red;">주의할 점</p>
+    <p> 절대로 모멘트 암이 나서는 안되며 힙 힌지를 걸어서 고관절을 주동으로 가져가야 한다. 만약 데드리프트를 수행 할 때 모멘트암이 발생하고 힙 힌지를 잡지않으면 바벨의 무게가 모두 허리로 가기 때문에 매우 위험하다. </p>
+    <p>데드리프트하는 방법</p>
+    <iframe width="620" height="515" 
+    src="https://www.youtube.com/embed/EBjYQeeBI-0">
+    </iframe>
+</iframe>
+</body>
+</html>
